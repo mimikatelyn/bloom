@@ -1,0 +1,202 @@
+/* #373938 */
+
+:root {
+    --header: #26292e; 
+    --button: #373938;
+    --primary: radial-gradient(
+        circle at top, 
+        #ef8ca1,
+        #e7718b
+        );
+    --border: #fce3e7;
+    --body: #f4f4f6;
+    --text:#c3c4c8;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+    background: var(--body);
+}
+
+.inner {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.clear {
+    clear: both;
+}
+
+header, footer {
+    padding: 10px 0px;
+    background: var(--header);
+}
+
+h1 {
+    margin: 0;
+    display: inline-block;
+    font-family: 'Butterfly Kids', cursive;
+    text-transform: capitalize;
+    color: var(--text);
+}
+
+p {
+    font-size: 12px;
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* .subheader {} */
+
+.products h2, .block h2, .testimonial h2 {
+    font-size: 14 px;
+}
+
+.primary {
+    padding: 15px 0;
+    background: pink;
+}
+
+.primary-text {
+    width: 40%;
+    display: inline-block;
+    color: var(--primary);
+    
+}
+
+.primary-text p {
+    font-size: 12px;
+}
+
+button {
+    margin-right: 15px;
+    padding: 6px 12px;
+    background: var(--button);
+    color: var(--text);
+    text-transform: capitalize;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.image-div {
+    float: right;
+}
+
+.secondary {
+    border-bottom: 3px solid pink;
+    /* border-color: var(--); */
+}
+
+.block {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-right: 6px;
+    width: calc(940px/3);
+    float: left;
+}
+
+.tertiary {
+    padding: 20px 0 30px 0;
+}
+
+.products {
+    width: 60%;
+    display: inline-block;
+}
+
+.products h2, .testimonial h2 {
+    font-weight: 300;
+}
+
+.productbox1 img, .productbox2 img {
+    margin-right: 30px;
+}
+
+.productbox1 {
+    margin-bottom: 25px;
+}
+
+.fas .fa-search {
+    margin: 0;
+}
+
+.testimonial {
+    width: 33%;
+    float: right;
+    clear: both;
+}
+
+.testimonial p {
+    margin-bottom: 45px;
+    line-height: 1.5;
+}
+
+strong {
+    color: var(--header);
+}
+
+.testimonial h2 {
+    margin-bottom: 20px;
+}
+
+.colophon {
+    margin: 0%;
+    display: inline-block;
+    color: var(--text);
+    font-size: 8px;
+}
+
+.block p, .testimonial p {
+    color: var(--text);
+}
+
+.product {
+    margin-right: 30px;
+    width: 190px;
+    height: 150px;
+    display: inline-block;
+    background: var(--header);
+    border: 5px solid var(--text);
+    box-shadow: 3px 3px 3px gray;
+}
+
+.product i {
+    margin: 50px 70px;
+    font-size: 36px;
+}
+
+i {
+    margin-right: 5px;
+    color: var(--text);
+    font-size: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.block i {
+    color: var(--header);
+}
